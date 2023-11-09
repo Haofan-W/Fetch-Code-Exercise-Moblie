@@ -1,16 +1,16 @@
 # Fetch-Code-Exercise-Moblie
 
 ## Overview
-ItemListApp is a simple Android application written in Kotlin that retrieves and displays a list of items from a remote JSON API. The app groups the items by "listId," sorts the results by "listId" and then by "name," and filters out items with blank or null names.
+This is a simple Android application written in Kotlin that retrieves and displays a list of items from a remote JSON API. The app groups the items by "listId," sorts the results by "listId" and then by "name," and filters out items with blank or null names.
 
 ## Features
 Fetches data from https://fetch-hiring.s3.amazonaws.com/hiring.json
 
 Display this list of items to the user based on the following requirements:
 
-*Display all the items grouped by "listId"
-*Sort the results first by "listId" then by "name" when displaying.
-*Filter out any items where "name" is blank or null.
+Markup : *Display all the items grouped by "listId"
+         *Sort the results first by "listId" then by "name" when displaying.
+         *Filter out any items where "name" is blank or null.
 
 The final result should be displayed to the user in an easy-to-read list.
 
