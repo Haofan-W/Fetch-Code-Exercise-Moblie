@@ -15,9 +15,14 @@ Display this list of items to the user based on the following requirements:
 The final result should be displayed to the user in an easy-to-read list.
 
 ## Dependencies
-Kotlin Coroutines: Used for handling asynchronous operations.
+Kotlin Coroutines: Used for handling asynchronous operations. <br>
 AndroidX: Used for modern Android development components.
 Getting Started
 1. Clone the repository: ```git clone https://github.com/yourusername/ItemListApp.git```
 2. Open the project in Android Studio.
 3. Build and run the app on an Android emulator or device.
+
+## Note
+Most of the code simples are at app/src/androidTest/java/com/example/fetch_rewards_coding_exercise <br>
+Unit test locate at app/src/test/java/com/example/fetch_rewards_coding_exercise <br>
+basic listview frontend locate at app/src/main/res/layout/activity_main.xml
