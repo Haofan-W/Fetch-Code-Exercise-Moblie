@@ -26,3 +26,6 @@ Getting Started:
 Most of the code simples are at app/src/androidTest/java/com/example/fetch_rewards_coding_exercise <br>
 Unit test locate at app/src/test/java/com/example/fetch_rewards_coding_exercise <br>
 basic listview frontend locate at app/src/main/res/layout/activity_main.xml
+
+## If I have more time
+I will move the sorting operation to the background so that it doesn't block the main thread. Since this API have very little data, I think running on the main thread should be fine. If the information gets larger, my plan is to display the items unsorted, then create a sort button, when the user click the sort button, a loading icon should appear until the sorting is complete.
